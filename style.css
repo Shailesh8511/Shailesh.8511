@@ -1,1 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+h1 {
+    color: #25D366;
+    text-align: center;
+}
+
+.upload-area {
+    border: 2px dashed #25D366;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-area:hover {
+    background-color: #f0fff0;
+}
+
+#fileInput {
+    display: none;
+}
+
+#fixBtn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#fixBtn:hover {
+    background-color: #128C7E;
+}
+
+#fixBtn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.info {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.info h3 {
+    margin-top: 0;
+    color: #128C7E;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+/* ગુજરાતી ફોંટ માટે */
+@font-face {
+    font-family: 'Shruti';
+    src: local('Shruti'), local('Shruti Regular');
+}
+
+body {
+    font-family: 'Shruti', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
