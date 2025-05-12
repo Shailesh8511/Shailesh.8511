@@ -78,12 +78,13 @@ ol {
     padding-left: 20px;
 }
 
-/* ગુજરાતી ફોંટ માટે */
+/* For Gujarati font */
 @font-face {
     font-family: 'Shruti';
     src: local('Shruti'), local('Shruti Regular');
 }
 
-body {
+/* Apply Shruti font only to Gujarati text */
+.gujarati {
     font-family: 'Shruti', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
